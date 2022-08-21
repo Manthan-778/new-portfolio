@@ -22,7 +22,7 @@ function Addmenu() {
                 li.append(anchor)
                 li.classList.add("menu_li", "padd");
    
-                anchor.append(document.createTextNode("Menu"));
+                anchor.append(document.createTextNode("HOME"));
                 ul.appendChild(li)
             }
             if (i === 1) {
@@ -31,7 +31,7 @@ function Addmenu() {
                 var li = document.createElement("li");
                 li.classList.add("menu_li");
                 li.append(anchor)
-                anchor.append(document.createTextNode("About Me"));
+                anchor.append(document.createTextNode("ABOUT ME"));
                 ul.appendChild(li);
             }
             if (i === 2) {
@@ -40,7 +40,7 @@ function Addmenu() {
                 var li = document.createElement("li");
                 li.classList.add("menu_li");
                 li.append(anchor);
-                anchor.append(document.createTextNode("Contact Me"));
+                anchor.append(document.createTextNode("CONTACT ME"));
                 ul.appendChild(li);
             }
             if (i === 3) {
@@ -49,7 +49,7 @@ function Addmenu() {
                 var li = document.createElement("li");
                 li.classList.add("menu_li");
                 li.append(anchor);
-                anchor.append(document.createTextNode("Projects"));
+                anchor.append(document.createTextNode("PROJECTS"));
                 ul.appendChild(li);
             }
         }
