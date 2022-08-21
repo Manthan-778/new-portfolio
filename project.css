@@ -16,11 +16,12 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
+    width: fit-content;
     height: 30vh;
     padding: 20px;
     font-family: 'Comic Neue', cursive;
     text-align: center;
+    overflow-y: scroll;
     /* background-color: black; */
     background-color: white;
     border-radius: 12px;
