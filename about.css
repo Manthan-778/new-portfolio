@@ -119,12 +119,15 @@ box-shadow: 0 -2px 17px 0 rgba(255, 255, 255, 0.5);
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    border-style: none;
+    user-select: none;
+
     
 }
 /* a{
     margin-left: 20px;
 } */
-a,a:hover, a:active, a:focus{
+a,a:hover, a:active, a:focus,a i{
     color:green;
     text-decoration: none;
     border-style: none;
