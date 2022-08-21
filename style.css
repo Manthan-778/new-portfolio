@@ -156,6 +156,7 @@ padding: 20px;
     }
     #dropdown{
         display: none;
+        user-select: none;
     }
     #hidden{
         display: none;
@@ -169,6 +170,8 @@ padding: 20px;
     #dropdown{
         display: block; 
         font-size: medium; 
+        user-select: none;
+
     }
     img{
         margin-top: -50px;
