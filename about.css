@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 
+
 *{
     margin: 0;
     padding: 0;
@@ -133,6 +134,7 @@ a,a:hover, a:active, a:focus,a i{
     border-style: none;
     user-select: none;
     outline: none;
+    cursor: default;
 
 }
 .arrow{
