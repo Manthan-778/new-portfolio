@@ -104,7 +104,7 @@ hr{
     cursor: pointer;
     user-select: none;
     font-size: 44px;
-    
+    cursor: default;
     color: red;
 }
 .darktxt
