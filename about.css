@@ -119,6 +119,7 @@ box-shadow: 0 -2px 17px 0 rgba(255, 255, 255, 0.5);
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    
 }
 /* a{
     margin-left: 20px;
@@ -128,6 +129,7 @@ a{
     text-decoration: none;
     border: none;
     user-select: none;
+    outline: none;
 
 }
 .arrow{
